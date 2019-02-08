@@ -1,5 +1,18 @@
+$show-ads: true;
+
+@if $show-ads == true{
+    .ads{
+        display:block;
+    }
+}@else{
+    .ads{
+        display: none;
+    }
+}
+
+
 .home{
     li{
-        
+
     }
 }
